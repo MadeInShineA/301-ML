@@ -1,0 +1,51 @@
+---
+title: "YOUR TITLE"
+subtitle: "YOUR SUBTITLE"
+format:
+  revealjs:
+    theme: [default, custom-styles.scss]
+    width: 1920
+    height: 1080
+    margin: 0.04
+    minScale: 0.2
+    maxScale: 2.0
+    slide-number: true
+    incremental: false
+    code-overflow: wrap
+    toc: false
+execute:
+  warning: false
+  message: false
+jupyter: python3
+---
+
+
+## Business Question
+
+
+## Dataset Presentation
+
+Below we demonstrate how to include a simple Python plot in the report. 
+
+```{python}
+%matplotlib inline
+import numpy as np
+import matplotlib.pyplot as plt
+
+X = np.linspace(0, 4, 20)
+y = 2 * X + 1
+
+plt.plot(X, y)
+```
+
+## Exploratory Data Analysis
+
+
+## Modelling
+
+
+## Model Performance and Validatation
+
+
+## Business Conclusions and Next Steps
+

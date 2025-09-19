@@ -1,0 +1,15 @@
+# # This file centralizes configurations for the ISC301 week 1 projet.
+#
+# Can be used to change default data locations and download URLs 
+# in case they evolve. 
+#
+# These configurations are handled by src/isc301/config.py
+# All paths are relative to the project root.
+# If absolute paths are given (starting with / ) then these are treated 
+# as absolute paths.
+#
+
+raw_data_folder: data/raw/
+clean_data_folder: data/clean/
+features_folder: data/features/
+models_folder: models/
