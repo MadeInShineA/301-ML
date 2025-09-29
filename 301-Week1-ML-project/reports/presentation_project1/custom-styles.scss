@@ -1,5 +1,4 @@
 /*-- scss:defaults --*/
-
 $body-bg: #fff;
 $body-color: #191919;
 $link-color: #42affa;
@@ -7,163 +6,233 @@ $link-color: #42affa;
 /*-- scss:rules --*/
 
 .reveal .slides .stronger {
-    font-weight: bolder; /* You can adjust the value as needed */
-    color: red;
+  font-weight: bolder;
+  /* You can adjust the value as needed */
+  color: red;
+}
+
+/* Keep h2 center (generic) */
+.reveal h2 {
+  text-align: center !important;
 }
 
 .reveal .slides h3 {
-    text-align: left;
-    font-size: 100%;
+  text-align: left;
+  font-size: 100%;
 }
+
 .reveal .slides .h4-style1 {
-    font-weight: bolder;
-    text-align: center;
-    font-size: 80%;
-    color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 80%;
+  color: white;
 }
 
 .reveal .slides .h4-style2 {
-    text-align: center;
-    font-size: 60%;
-    color: white;
+  text-align: center;
+  font-size: 60%;
+  color: white;
 }
 
 .reveal .slides .materialsh4 {
-    font-weight: bolder;
-    text-align: left;
-    font-size: 70%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: white;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 70%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
 }
 
 .image-grid {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 .tile-style1 {
-    text-align: center;
+  text-align: center;
 }
 
 .tile-style1 img {
-    max-width: 100px; /* Adjust the size as needed */
-    height: auto;
+  max-width: 100px;
+  /* Adjust the size as needed */
+  height: auto;
 }
 
 .tile-style3 img {
-    max-width: 250px; /* Adjust the size as needed */
-    max-height: 250px;
-    height: 250px;
+  max-width: 250px;
+  /* Adjust the size as needed */
+  max-height: 250px;
+  height: 250px;
 }
 
 .tile-style1 p {
-    margin-top: 10px;
-    font-size: 14px; /* Adjust the size as needed */
+  margin-top: 10px;
+  font-size: 14px;
+  /* Adjust the size as needed */
 }
 
 .tiles-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    transition: transform 10.1s linear;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  transition: transform 10.1s linear;
 }
 
 .tile-style2 {
-    width: 40%;
-    height: 60%;
-    background-color: 	#854442;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    transition: transform 10.1s linear;
-    color: white;
-    margin: 15px;
+  width: 40%;
+  height: 60%;
+  background-color: #854442;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 10.1s linear;
+  color: white;
+  margin: 15px;
 }
 
 .tile-style-alpha {
-    width: 40%;
-    height: 60%;
-    background-color: 	#854442;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    transition: transform 10.1s linear;
-    opacity: 0.5;
+  width: 40%;
+  height: 60%;
+  background-color: #854442;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 10.1s linear;
+  opacity: 0.5;
 }
 
 .tile:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .reveal .slide .imgstyle {
-    width: 150%;
+  width: 150%;
 }
 
 .people-list li {
-    font-size: 22px; /* Adjust the size as needed */
+  font-size: 22px;
+  /* Adjust the size as needed */
 }
 
 .reveal .footer {
-    position: absolute;
-    bottom: -9em;
-    right: 0.1em;
-    font-size: 0.3em;
+  position: absolute;
+  bottom: -9em;
+  right: 0.1em;
+  font-size: 0.3em;
 }
 
 .rounded-box-small-data {
-    text-align: left;
-    border: 6px solid #3c7baf; /* Border color and thickness */
-    border-radius: 15px; /* Rounded corners */
-    padding: 15px; /* Space inside the box */
-    margin: 15px; /* Space outside the box */
-    width: fit-content; /* Adjust the box width to fit the content */
+  text-align: left;
+  border: 6px solid #3c7baf;
+  /* Border color and thickness */
+  border-radius: 15px;
+  /* Rounded corners */
+  padding: 15px;
+  /* Space inside the box */
+  margin: 15px;
+  /* Space outside the box */
+  width: fit-content;
+  /* Adjust the box width to fit the content */
 }
 
 .rounded-box-big-data {
-    text-align: left;
-    border: 6px solid #0fe6a5; /* Border color and thickness */
-    border-radius: 15px; /* Rounded corners */
-    padding: 15px; /* Space inside the box */
-    margin: 15px; /* Space outside the box */
-    width: fit-content; /* Adjust the box width to fit the content */
+  text-align: left;
+  border: 6px solid #0fe6a5;
+  /* Border color and thickness */
+  border-radius: 15px;
+  /* Rounded corners */
+  padding: 15px;
+  /* Space inside the box */
+  margin: 15px;
+  /* Space outside the box */
+  width: fit-content;
+  /* Adjust the box width to fit the content */
 }
 
 .reveal .slides .left-aligned-list {
-    text-align: left;
+  text-align: left;
 }
 
 .reveal .slides .myblue {
-    color: #3c7baf;
+  color: #3c7baf;
 }
 
 .reveal .slides .mygreen {
-    color: #0fe6a5;
+  color: #0fe6a5;
 }
 
 .rounded-box-deterministic {
-    text-align: left;
-    border: 6px solid #837a77; /* Border color and thickness */
-    border-radius: 15px; /* Rounded corners */
-    padding: 15px; /* Space inside the box */
-    margin: 15px; /* Space outside the box */
-    width: fit-content; /* Adjust the box width to fit the content */
+  text-align: left;
+  border: 6px solid #837a77;
+  /* Border color and thickness */
+  border-radius: 15px;
+  /* Rounded corners */
+  padding: 15px;
+  /* Space inside the box */
+  margin: 15px;
+  /* Space outside the box */
+  width: fit-content;
+  /* Adjust the box width to fit the content */
 }
 
 .rounded-box-probabilistic {
-    text-align: left;
-    border: 6px solid #e6d057; /* Border color and thickness */
-    border-radius: 15px; /* Rounded corners */
-    padding: 15px; /* Space inside the box */
-    margin: 15px; /* Space outside the box */
-    width: fit-content; /* Adjust the box width to fit the content */
+  text-align: left;
+  border: 6px solid #e6d057;
+  /* Border color and thickness */
+  border-radius: 15px;
+  /* Rounded corners */
+  padding: 15px;
+  /* Space inside the box */
+  margin: 15px;
+  /* Space outside the box */
+  width: fit-content;
+  /* Adjust the box width to fit the content */
 }
 
 .reveal .slides .myyellow {
-    color: #e6d057;
+  color: #e6d057;
 }
 
 .reveal .slides .mybrown {
-    color: #837a77;
+  color: #837a77;
+}
+
+/* --- STRONG CENTERING OVERRIDES --- */
+
+/* Center ALL slide titles (top-level slide headings) robustly */
+.reveal .slides section>h1,
+.reveal .slides section>h2 {
+  text-align: center !important;
+  display: block !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* In case Quarto wraps the slide title */
+.reveal .slides section .slide-title,
+.reveal .slides section .quarto-title h1.title {
+  text-align: center !important;
+}
+
+/* Title slide: center title + subtitle horizontally */
+.reveal .slides section.title-slide>h1.title,
+.reveal .slides section#title-slide>h1.title,
+.reveal .slides section.title-slide>p.subtitle,
+.reveal .slides section#title-slide>p.subtitle {
+  text-align: center !important;
+  display: block !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Vertically center the title slide content */
+.reveal .slides section.title-slide {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100% !important;
 }
