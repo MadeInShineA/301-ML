@@ -1,0 +1,3 @@
+[submodule "ml-workflow-and-svm-MadeInShineA"]
+	path = ml-workflow-and-svm-MadeInShineA
+	url = git@github.com:hei-isc-ml-stud/ml-workflow-and-svm-MadeInShineA.git
