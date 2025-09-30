@@ -4,3 +4,6 @@
 [submodule "genetic-algorithms-MadeInShineA"]
 	path = genetic-algorithms-MadeInShineA
 	url = git@github.com:hei-isc-ml-stud/genetic-algorithms-MadeInShineA.git
+[submodule "trees-forests-and-regression-MadeInShineA"]
+	path = trees-forests-and-regression-MadeInShineA
+	url = git@github.com:hei-isc-ml-stud/trees-forests-and-regression-MadeInShineA.git
